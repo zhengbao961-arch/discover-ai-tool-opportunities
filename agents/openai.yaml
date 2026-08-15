@@ -1,0 +1,13 @@
+interface:
+  display_name: 真实工作 AI 工具孵化器
+  short_description: 从朋友的真实工作中发现、验证并做出值得进入作品集的 AI 工具
+  default_prompt: Use $discover-ai-tool-opportunities 从一位朋友的真实工作开始，带我一步一步发现、验证并做出合适的工具。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
